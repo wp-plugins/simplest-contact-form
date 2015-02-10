@@ -11,17 +11,19 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Features:
  * Simple Contact Form easy to Use.
  * Use Shortcode on any page and Post
+ *Use Simplest Contact Form Widget 
 
 == Installation ==
 
 1. Extract `simplest-contact-form.zip` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Place [simplest_contact_form] at any Page and Post
+4. Add Widget from appereance>widgets in Any Sidebar.
 
 == Changelog ==
 
 = 1.0 =
 * First version.
-
-
+=1.1=
+*Widgetized the plugin.Add Widget.
 
