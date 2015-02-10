@@ -24,6 +24,6 @@ Features:
 
 = 1.0 =
 * First version.
-=1.1=
-*Widgetized the plugin.Add Widget.
+= 1.1 =
+* Widgetized the plugin.Add Widget.
 
