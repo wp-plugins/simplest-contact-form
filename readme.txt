@@ -18,7 +18,7 @@ Features:
 1. Extract `simplest-contact-form.zip` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Place [simplest_contact_form] at any Page and Post
-4. Add Widget from appereance>widgets in Any Sidebar.
+4. Add Widget from Appearance>Widgets in Any Sidebar
 
 == Changelog ==
 
