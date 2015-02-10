@@ -3,7 +3,7 @@
 Plugin Name:Simplest Contact Form
 Plugin URI: http://www.demo.webdeveloperutkarsh.in/simplest-contact-form/
 Description: Simple WordPress Contact Form
-Version: 1.0
+Version: 1.1
 Author: Utkarsh Shinde
 Author URI: http://www.webdeveloperutkarsh.in
 */
