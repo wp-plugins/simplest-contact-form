@@ -26,4 +26,5 @@ Features:
 * First version.
 = 1.1 =
 * Widgetized the plugin.Add Widget.
-
+= 1.2=
+* Updated verified fields messages

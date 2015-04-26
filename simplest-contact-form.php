@@ -3,7 +3,7 @@
 Plugin Name:Simplest Contact Form
 Plugin URI: http://www.demo.webdeveloperutkarsh.in/simplest-contact-form/
 Description: Simple WordPress Contact Form
-Version: 1.1
+Version: 1.2
 Author: Utkarsh Shinde
 Author URI: http://www.webdeveloperutkarsh.in
 */
@@ -30,6 +30,9 @@ function deliver_email(){
        $subject= sanitize_text_field($_POST['subject']);
        $email= sanitize_email($_POST['email']);
        $message=esc_textarea( $_POST["message"] );
+
+          
+          
       
        
        // get the blog administrator's email address
@@ -37,15 +40,20 @@ function deliver_email(){
      
        $headers="From:$name<$email>";
        // If email has been process for sending, display a success message
-       
+             if(!empty($_POST['your-name']) && !empty($_POST['subject']) && !empty($_POST['email']) && !empty($_POST['message'])){
        if ( wp_mail( $to, $subject, $message, $headers ) ) {
             echo '<div>';
-            echo '<p>Thanks for contacting me, expect a response soon.</p>';
+            echo '<p style="color:green">Thanks for contacting_ me, expect a response soon.</p>';
             echo '</div>';
         } else {
-            echo 'An unexpected error occurred';
+            echo '<p style="color:red">Error Sending Message</p>';
         }
     
+    }
+    else {
+        
+        echo '<p style="color:red">All Fields are Rquired</p>';
+    }
     }
 }
 
